@@ -6,3 +6,5 @@ exclude:
   - Gemfile.lock
   - .bundle/
   - vendor/
+
+dailyAPI: "https://hepto.github.io/daily-api/data.json"
