@@ -1,1 +1,1 @@
-dailyAPI: "http://localhost:4001/data.json"
+dailyAPI: "http://localhost:4001/v0.1/all.json"

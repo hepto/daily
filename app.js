@@ -3,14 +3,14 @@
 var dailyAPI = "{{ site.dailyAPI }}";
 
 var app = new Vue({
-  el: "#bookmarks",
+  el: "#days",
   data: {
-	links: null
+		days: null
   },
   created() {
-	axios.get(dailyAPI)
-		.then((response) => {
-			this.links = response.data;
-		});
+		axios.get(dailyAPI)
+			.then((response) => {
+				this.days = response.data;
+			});
 	}
 });

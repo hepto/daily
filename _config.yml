@@ -7,4 +7,4 @@ exclude:
   - .bundle/
   - vendor/
 
-dailyAPI: "https://hepto.github.io/daily-api/data.json"
+dailyAPI: "https://hepto.github.io/v0.1/all.json"

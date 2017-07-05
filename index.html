@@ -11,10 +11,10 @@
   <body>
     <h1>Daily</h1>
 
-    <div id="bookmarks">
+    <div id="days">
       <ul>
-        <li v-for="link in links">
-          <a v-bind:href="link.url">{{ link.name }}</a>
+        <li v-for="day in days">
+          {{ day.date }} : {{ day.meal }}
         </li>
       </ul>
     </div>
