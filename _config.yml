@@ -1,10 +1,6 @@
 # Build
+source: src
+destination: build
 markdown: kramdown
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - .bundle/
-  - vendor/
 
 dailyAPI: "https://hepto.github.io/daily-api/v0.1/all.json"
