@@ -1,4 +1,1 @@
-build
-.sass-cache
-.jekyll-metadata
-vendor/
+.firebaserc

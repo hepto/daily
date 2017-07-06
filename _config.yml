@@ -1,6 +1,0 @@
-# Build
-source: src
-destination: build
-markdown: kramdown
-
-dailyAPI: "https://hepto.github.io/daily-api/v0.1/all.json"
