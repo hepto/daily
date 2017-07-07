@@ -1,4 +1,4 @@
-var dailyAPI = "https://hepto.github.io/daily-api/v0.1/all.json";
+var dailyAPI = "/api/v0.1/all.json";
 
 var app = new Vue({
   el: "#days",

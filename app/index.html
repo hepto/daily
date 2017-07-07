@@ -14,7 +14,8 @@
     <div id="days">
       <ul>
         <li v-for="day in days">
-          {{ day.date }} : {{ day.meal }}
+          <div>{{ day.date }}</div>
+          <div v-for="event in day.events">{{ event.type }} - {{ (event.details) ? event.details.name : '' }}</div>
         </li>
       </ul>
     </div>
