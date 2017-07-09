@@ -1,0 +1,20 @@
+body {
+    background-color: #ccc;
+}
+
+#viewport {
+    height: 100vh;   
+    background-color: white;
+    box-shadow: 2px 2px 5px #888;
+}
+
+@media (min-device-width: 375px) {
+    #viewport {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        width: 375px;
+        height: calc(100vh - 20px);
+        max-height: 667px;
+    }
+}
